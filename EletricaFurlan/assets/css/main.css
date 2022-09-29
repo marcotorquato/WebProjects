@@ -890,10 +890,12 @@ section {
 .projects .portfolio-content {
   position: relative;
   overflow: hidden;
+  max-height: 470px;
 }
 
 .projects .portfolio-content img {
   transition: 0.3s;
+  
 }
 
 .projects .portfolio-content .portfolio-info {
@@ -904,6 +906,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
+  
 }
 
 .projects .portfolio-content .portfolio-info h4 {
@@ -929,7 +932,7 @@ section {
 
 .projects .portfolio-content .portfolio-info .preview-link,
 .projects .portfolio-content .portfolio-info .details-link {
-  position: absolute;
+  position:absolute;
   left: calc(50% - 40px);
   font-size: 26px;
   top: calc(50% - 14px);
