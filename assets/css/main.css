@@ -1728,12 +1728,12 @@ section {
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
 }
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   inset: 0;
 }
