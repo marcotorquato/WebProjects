@@ -16,4 +16,4 @@ jobs:
             username: ${{ secrets.FTP_USERNAME }}
             password: ${{ secrets.FTP_PASSWOD }}
             local_dir: 
-            server_dir: /public_html/furlanseletrica.com.br
+            server_dir: public_html/furlanseletrica.com.br
